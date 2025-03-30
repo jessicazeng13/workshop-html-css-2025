@@ -5,12 +5,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- You HTML code here: -->
+    <div class="main"> 
+        <!-- Div for the friends list (left) -->
+        <div class="left">
+            <div class="friends-filter"> 
+                <h2> Friends </h2>
+                <input placeholder="Search for friends...">
+            </div>
 
+            <div class="contact-cards">
+                
+                <!-- Each friend grouped separately -->
+                 <div class="contact-card">
+                    <img src="./public/photo1.jpg" alt="Jason" class="friend-photo">
+                    <p> Jason </p>
+                </div>
+                <div class="contact-card">
+                    <img src="./public/photo2.jpg" alt="Emily" class="friend-photo">
+                    <p> Emily </p>
+                </div>
+                <div class="contact-card">
+                    <img src="./public/photo3.jpg" alt="Alex" class="friend-photo">
+                    <p> Alex </p>
+                </div>
+                <div class="contact-card">
+                    <img src="./public/photo4.jpg" alt="Andrew" class="friend-photo">
+                    <p> Andrew </p>
+                </div>
+                <div class="contact-card">
+                    <img src="./public/photo5.jpg" alt="Sam" class="friend-photo">
+                    <p> Sam </p>
+                </div>
+            </div>
+
+            <div class="add-friend">
+                <img src="./public/user-add.svg" alt="Add Friend" class="add-friend-icon" width="50px">
+                <button>Add Friend</button>
+            </div>
+        </div>
+
+        <!-- Div for the friend 'page' (right) -->
+        <div class="right">
+            
+            <img src="./public/photo2.jpg" alt="Friend's photo" class="friend-photo">
+            <h1>Emily</h1>
+            <p> 012 345 5678</p>
+            <p>Sound like a true meathead in your mockups with Bro Ipsum, specializing in a lorem ipsum made up of catchphrases fondly deployed in the dullest of conversations.</p>
+            <button class="edit-button"> Edit </button>
+            <button class="delete-button"> Delete </button>
+        </div>
+    </div>
 </body>
 
 </html>
